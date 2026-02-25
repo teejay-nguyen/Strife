@@ -1,0 +1,48 @@
+# CMake build artifacts
+# Centralized build directory (best practice)
+/build/
+/out/
+/cmake-build-*/
+
+# Specific CMake generated files that might appear in source dir
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+_deps/
+CMakeUserPresets.json
+
+# C/C++ object files and libraries
+*.o
+*.obj
+*.d
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Precompiled headers
+*.gch
+*.pch
+
+# IDE specific files
+# Visual Studio
+.vs/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.ncb
+
+# JetBrains CLion
+.idea/
+
+# macOS
+.DS_Store
